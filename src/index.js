@@ -5,6 +5,7 @@ app.use(cors());
 
 const port = 3000;
 
+
 app.get('/', (req, res) => {
     res.send('Arithmetic service - Hello World!')
 });
