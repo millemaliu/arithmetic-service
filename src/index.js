@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const { add } = require("./arithmetica");
+const { add, subtract, divide, multiply } = require("./arithmetica");
 
 const port = 3000;
 
